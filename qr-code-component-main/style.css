@@ -1,0 +1,49 @@
+.container {
+    background-color: hsl(212, 45%, 89%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 729px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    width: 315px;
+    height: 490px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 7px 16px -10px hsl(220, 15%, 55%)
+}
+
+
+.qr-code {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-text > .header {
+    margin-top: 0;
+    font-size: 20px;
+    width: 250px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.card-text > .body {
+    font-size: 15px;
+    width: 250px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}

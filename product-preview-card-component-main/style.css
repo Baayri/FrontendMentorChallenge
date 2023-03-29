@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    padding: 1rem;
+}
+
+main{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    width: 95vh;
+    height: 71vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.5vh;
+}
+
+.card-image{
+    background-image: url("images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 1.5vh;
+    border-bottom-left-radius: 1.5vh;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4vh;
+}
+
+.info > div{
+
+}
+
+.card-button{
+    width: 100%;
+    height: 7vh;
+    border-radius: 1vh;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border: solid 1px hsl(158, 36%, 37%);
+}
